@@ -7,10 +7,6 @@ import plotly.express as px
 import pandas as pd                        # pip install pandas
 import json
 
-# Set the working directory
-import os
-os.chdir(r"C:\Users\Igna\Downloads")
-
 # Read the stuff
 london_map = json.load(open("london_boroughs.json", "r"))
 london_data = pd.read_csv("london_boroughs.csv")
